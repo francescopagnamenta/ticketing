@@ -14,7 +14,7 @@ app.use(json());
 app.use(
   cookieSession({
     signed: false,
-    false
+    secure: false
   })
 );
 app.use(currentUser);
